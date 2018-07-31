@@ -16,3 +16,19 @@ p {
 a {
     color:red;
 }
+.link:hover{
+	background-color:blue;
+}
+#importent-peragraph:hover{
+	background-color: yellow;
+	font-size: 40pt;
+}
+.less-importent-peragraph:hover{
+	color: blue;
+}
+#hidden-div{
+	display: none;
+}
+#span-cover:hover + #hidden-div {
+    display: block;
+}
